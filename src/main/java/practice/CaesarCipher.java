@@ -23,8 +23,26 @@ public class CaesarCipher {
 	 * @return
 	 */
 	public String encrypt(String message, int shift) {
-		//REPLACE WITH YOUR CODE
-		return null;
+		if(shift > 26){
+			return null;
+		}
+		StringBuffer result = new StringBuffer();
+		for(int i = 0; i < message.length(); i++){
+			char tempChar = message.charAt(i);
+			if(!(tempChar >= 'a' && tempChar<= 'z') && !(tempChar >= 'A' && tempChar<= 'Z')){
+				return null;
+			}
+			int value = (int)tempChar;
+			if(tempChar >= 'a' && tempChar<= 'z'){
+				int lower = (int)'a';
+				value = (value - lower + shift) % 26 + lower;
+			} else {
+				int upper = (int)'A';
+				value = (value - upper + shift) % 26 + upper;
+			}
+			result.append((char)value);
+		}
+		return result.toString();
 	}
 	
 	

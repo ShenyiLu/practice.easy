@@ -15,8 +15,7 @@ public class ConversionsHelper {
 	 * @return
 	 */
 	public double ouncesToGallons(int ounces) {
-		//REPLACE WITH YOUR CODE
-		return 0;
+		return ounces / 128.00;
 	}
 	
 	/**
@@ -27,8 +26,7 @@ public class ConversionsHelper {
 	 * @return
 	 */
 	public double cmToFeet(int cm) {
-		//REPLACE WITH YOUR CODE
-		return 0;
+		return cm / 30.48;
 	}
 	
 }
