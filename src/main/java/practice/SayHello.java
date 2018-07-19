@@ -16,8 +16,7 @@ public class SayHello {
 	 * @return
 	 */
 	public String sayHello(String name) {
-		//REPLACE WITH YOUR CODE
-		return null;
+		return "Hello, " + name + "!";
 	}
 	
 	

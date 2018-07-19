@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f87b120-eef7-47e8-913b-7a89f00028b9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/PhoneNumberTranslation.java" afterPath="$PROJECT_DIR$/src/main/java/practice/PhoneNumberTranslation.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/SayHello.java" afterPath="$PROJECT_DIR$/src/main/java/practice/SayHello.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,32 +14,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PhoneNumberTranslation.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/practice/PhoneNumberTranslation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="52" column="51" lean-forward="false" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PhoneNumberTranslationTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/practice/PhoneNumberTranslationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SayHello.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SayHello.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/practice/SayHello.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="270">
+              <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+              <folding>
+                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,6 +44,7 @@
         <option value="$PROJECT_DIR$/src/main/java/practice/ConversionsHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/practice/Fraction.java" />
         <option value="$PROJECT_DIR$/src/main/java/practice/PhoneNumberTranslation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/practice/SayHello.java" />
       </list>
     </option>
   </component>
@@ -141,7 +125,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PhoneNumberTranslationTest">
+  <component name="RunManager" selected="JUnit.SayHelloTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -263,6 +247,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="SayHelloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.SayHelloTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -323,18 +332,20 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.CaesarCipherTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.PhoneNumberTranslationTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.ConversionsHelperTest" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.FractionTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SayHelloTest" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PhoneNumberTranslationTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FractionTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ConversionsHelperTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CaesarCipherTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SayHelloTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PhoneNumberTranslationTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FractionTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ConversionsHelperTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CaesarCipherTest" />
       </list>
     </recent_temporary>
   </component>
@@ -355,9 +366,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CaesarCipherTest - 2018.07.18 at 16h 22m 35s.xml">
-      <configuration name="CaesarCipherTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CaesarCipherTest - 2018.07.18 at 16h 38m 11s.xml">
       <configuration name="CaesarCipherTest" configurationId="JUnit" />
     </history-entry>
@@ -385,10 +393,12 @@
     <history-entry file="PhoneNumberTranslationTest - 2018.07.18 at 18h 45m 54s.xml">
       <configuration name="PhoneNumberTranslationTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SayHelloTest - 2018.07.18 at 19h 08m 33s.xml">
+      <configuration name="SayHelloTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -426,14 +436,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/practice/SayHello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/practice/ConversionsHelperTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -497,6 +499,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/practice/PhoneNumberTranslation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="52" column="51" lean-forward="false" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/practice/PhoneNumberTranslationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="49">
@@ -505,11 +515,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/practice/PhoneNumberTranslation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/practice/SayHello.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="52" column="51" lean-forward="false" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
-          <folding />
+        <state relative-caret-position="270">
+          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
