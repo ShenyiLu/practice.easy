@@ -44,10 +44,13 @@ public class PhoneNumberTranslation {
 	 * @return
 	 */
 	public String alphaToNumber(String alpha) {
+		if (alpha.length() != 7) {
+			return null;
+		}
 		StringBuffer buffer = new StringBuffer();
 		for (int i = 0; i < alpha.length(); i++) {
 			char tempChar = alpha.charAt(i);
-			if (!(tempChar == '0') && !(tempChar == '1') && !(tempChar >= 'A' && tempChar <= 'Z')) {
+			if (!(tempChar >= '0' && tempChar <= '9') && !(tempChar >= 'A' && tempChar <= 'Z')) {
 				return null;
 			}
 			buffer.append(switchTable(tempChar));
@@ -65,43 +68,51 @@ public class PhoneNumberTranslation {
 			case 'A':
 			case 'B':
 			case 'C':
+			case '2':
 				number = 2;
 				break;
 			case 'D':
 			case 'E':
 			case 'F':
+			case '3':
 				number = 3;
 				break;
 			case 'G':
 			case 'H':
 			case 'I':
+			case '4':
 				number = 4;
 				break;
 			case 'J':
 			case 'K':
 			case 'L':
+			case '5':
 				number = 5;
 				break;
 			case 'M':
 			case 'N':
 			case 'O':
+			case '6':
 				number = 6;
 				break;
 			case 'P':
 			case 'Q':
 			case 'R':
 			case 'S':
+			case '7':
 				number = 7;
 				break;
 			case 'T':
 			case 'U':
 			case 'V':
+			case '8':
 				number = 8;
 				break;
 			case 'W':
 			case 'X':
 			case 'Y':
 			case 'Z':
+			case '9':
 				number = 9;
 				break;
 			case '0':
